@@ -21,6 +21,7 @@
 		5511155E23B7D477008F1A2B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511155D23B7D477008F1A2B /* Reachability.swift */; };
 		55563AAE23C7B276002AF5CD /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55563AAD23C7B276002AF5CD /* TableViewExtension.swift */; };
 		55563AB023C7B5AA002AF5CD /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55563AAF23C7B5AA002AF5CD /* UIViewExtension.swift */; };
+		55563AB323C7C3F0002AF5CD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55563AB223C7C3F0002AF5CD /* Default-568h@2x.png */; };
 		55584A3223C4FD5A00C564BB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55584A3123C4FD5A00C564BB /* DetailViewController.swift */; };
 		55584A3523C5003700C564BB /* LabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55584A3323C5003700C564BB /* LabelTableViewCell.swift */; };
 		55584A3623C5003700C564BB /* LabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55584A3423C5003700C564BB /* LabelTableViewCell.xib */; };
@@ -61,6 +62,7 @@
 		5511155D23B7D477008F1A2B /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		55563AAD23C7B276002AF5CD /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
 		55563AAF23C7B5AA002AF5CD /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		55563AB223C7C3F0002AF5CD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		55584A3123C4FD5A00C564BB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		55584A3323C5003700C564BB /* LabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTableViewCell.swift; sourceTree = "<group>"; };
 		55584A3423C5003700C564BB /* LabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LabelTableViewCell.xib; sourceTree = "<group>"; };
@@ -98,7 +100,9 @@
 		5511152023B3E3F4008F1A2B = {
 			isa = PBXGroup;
 			children = (
+				55563AB223C7C3F0002AF5CD /* Default-568h@2x.png */,
 				5511152B23B3E3F4008F1A2B /* Listen */,
+				5511153A23B3E3FC008F1A2B /* Info.plist */,
 				5511152A23B3E3F4008F1A2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -129,7 +133,6 @@
 			isa = PBXGroup;
 			children = (
 				5511153523B3E3FC008F1A2B /* Assets.xcassets */,
-				5511153A23B3E3FC008F1A2B /* Info.plist */,
 				5511155023B77DA8008F1A2B /* AppLocators.swift */,
 				5511155523B7CC7F008F1A2B /* GetTestData.swift */,
 			);
@@ -303,6 +306,7 @@
 				55584A8023C7563D00C564BB /* ToastMessageView.xib in Resources */,
 				5511153923B3E3FC008F1A2B /* LaunchScreen.storyboard in Resources */,
 				55584A3E23C5007A00C564BB /* MultiLabelTableViewCell.xib in Resources */,
+				55563AB323C7C3F0002AF5CD /* Default-568h@2x.png in Resources */,
 				55584A3623C5003700C564BB /* LabelTableViewCell.xib in Resources */,
 				5511153623B3E3FC008F1A2B /* Assets.xcassets in Resources */,
 				55584A3A23C5005200C564BB /* ImageTableViewCell.xib in Resources */,
