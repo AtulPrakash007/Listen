@@ -45,16 +45,16 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Z9U-bj-g6l" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="0id-CJ-Ka0"/>
-                            <constraint firstItem="Z9U-bj-g6l" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="30M-Ct-QSd"/>
+                            <constraint firstItem="Z9U-bj-g6l" firstAttribute="trailing" secondItem="y45-g0-B2i" secondAttribute="trailing" id="1Cn-vn-RZe"/>
                             <constraint firstItem="OtQ-2n-70o" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="3cl-cW-ufl"/>
                             <constraint firstItem="y45-g0-B2i" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="AFZ-Yy-SOT"/>
+                            <constraint firstItem="Z9U-bj-g6l" firstAttribute="top" secondItem="y45-g0-B2i" secondAttribute="bottom" constant="5" id="MyN-s5-gFF"/>
+                            <constraint firstItem="OtQ-2n-70o" firstAttribute="top" secondItem="Z9U-bj-g6l" secondAttribute="bottom" constant="5" id="NoE-fC-m1X"/>
                             <constraint firstItem="OtQ-2n-70o" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Qgj-x4-s3M"/>
                             <constraint firstItem="y45-g0-B2i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="VPG-os-YaC"/>
                             <constraint firstItem="OtQ-2n-70o" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dZJ-eh-khP"/>
-                            <constraint firstItem="Z9U-bj-g6l" firstAttribute="top" secondItem="y45-g0-B2i" secondAttribute="bottom" constant="5" id="gRm-YP-Z4q"/>
+                            <constraint firstItem="Z9U-bj-g6l" firstAttribute="leading" secondItem="y45-g0-B2i" secondAttribute="leading" id="lIw-lT-LKX"/>
                             <constraint firstItem="y45-g0-B2i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nsj-VS-ff2"/>
-                            <constraint firstItem="OtQ-2n-70o" firstAttribute="top" secondItem="Z9U-bj-g6l" secondAttribute="bottom" constant="5" id="pXh-Wy-oyH"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
